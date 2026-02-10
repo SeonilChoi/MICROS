@@ -1,1 +1,3 @@
-# Motor Integrated Control for Robot Operating System
+# MICROS
+
+The Motion Integrated Control for Robot Operating System
