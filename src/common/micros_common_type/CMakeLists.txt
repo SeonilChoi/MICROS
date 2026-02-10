@@ -24,3 +24,4 @@ add_library(micros_common_type_library INTERFACE)
 target_include_directories(micros_common_type_library INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/ DESTINATION include)
+install(FILES micros_common_typeConfig.cmake DESTINATION share/micros_common_type/cmake)
