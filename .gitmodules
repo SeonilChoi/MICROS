@@ -1,0 +1,3 @@
+[submodule "src/manager/motor_manager"]
+	path = src/manager/motor_manager
+	url = https://github.com/SeonilChoi/MOTOR-MANAGER.git
