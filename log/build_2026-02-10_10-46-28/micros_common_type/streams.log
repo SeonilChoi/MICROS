@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/csi/MICROS/build/micros_common_type': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/csi/MICROS/src/common/micros_common_type -DCMAKE_INSTALL_PREFIX=/home/csi/MICROS/install/micros_common_type
+[0.065s] -- The C compiler identification is GNU 13.3.0
+[0.101s] -- The CXX compiler identification is GNU 13.3.0
+[0.126s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.211s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.212s] -- Detecting C compile features
+[0.212s] -- Detecting C compile features - done
+[0.223s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.318s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.318s] -- Configuring done (0.3s)
+[0.319s] -- Generating done (0.0s)
+[0.319s] -- Build files have been written to: /home/csi/MICROS/build/micros_common_type
+[0.325s] Invoked command in '/home/csi/MICROS/build/micros_common_type' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/csi/MICROS/src/common/micros_common_type -DCMAKE_INSTALL_PREFIX=/home/csi/MICROS/install/micros_common_type
+[0.328s] Invoking command in '/home/csi/MICROS/build/micros_common_type': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csi/MICROS/build/micros_common_type -- -j24 -l24
+[0.364s] Invoked command in '/home/csi/MICROS/build/micros_common_type' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csi/MICROS/build/micros_common_type -- -j24 -l24
+[0.373s] Invoking command in '/home/csi/MICROS/build/micros_common_type': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csi/MICROS/build/micros_common_type
+[0.381s] -- Install configuration: ""
+[0.381s] -- Installing: /home/csi/MICROS/install/micros_common_type/include
+[0.382s] -- Installing: /home/csi/MICROS/install/micros_common_type/include/micros_common_type
+[0.383s] -- Installing: /home/csi/MICROS/install/micros_common_type/include/micros_common_type/micros_common_type.hpp
+[0.384s] Invoked command in '/home/csi/MICROS/build/micros_common_type' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csi/MICROS/build/micros_common_type

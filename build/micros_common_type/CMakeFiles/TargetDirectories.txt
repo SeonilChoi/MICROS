@@ -1,0 +1,6 @@
+/home/csi/MICROS/build/micros_common_type/CMakeFiles/edit_cache.dir
+/home/csi/MICROS/build/micros_common_type/CMakeFiles/rebuild_cache.dir
+/home/csi/MICROS/build/micros_common_type/CMakeFiles/list_install_components.dir
+/home/csi/MICROS/build/micros_common_type/CMakeFiles/install.dir
+/home/csi/MICROS/build/micros_common_type/CMakeFiles/install/local.dir
+/home/csi/MICROS/build/micros_common_type/CMakeFiles/install/strip.dir
