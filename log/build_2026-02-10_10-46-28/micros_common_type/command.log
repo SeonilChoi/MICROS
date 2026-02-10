@@ -1,6 +1,0 @@
-Invoking command in '/home/csi/MICROS/build/micros_common_type': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/csi/MICROS/src/common/micros_common_type -DCMAKE_INSTALL_PREFIX=/home/csi/MICROS/install/micros_common_type
-Invoked command in '/home/csi/MICROS/build/micros_common_type' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/csi/MICROS/src/common/micros_common_type -DCMAKE_INSTALL_PREFIX=/home/csi/MICROS/install/micros_common_type
-Invoking command in '/home/csi/MICROS/build/micros_common_type': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csi/MICROS/build/micros_common_type -- -j24 -l24
-Invoked command in '/home/csi/MICROS/build/micros_common_type' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/csi/MICROS/build/micros_common_type -- -j24 -l24
-Invoking command in '/home/csi/MICROS/build/micros_common_type': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csi/MICROS/build/micros_common_type
-Invoked command in '/home/csi/MICROS/build/micros_common_type' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/csi/MICROS/build/micros_common_type
