@@ -1,3 +1,6 @@
 [submodule "src/libraries/motor_manager"]
 	path = src/libraries/motor_manager
 	url = https://github.com/SeonilChoi/MOTOR-MANAGER.git
+[submodule "src/libraries/robot_manager"]
+	path = src/libraries/robot_manager
+	url = https://github.com/SeonilChoi/ROBOT-MANAGER.git
