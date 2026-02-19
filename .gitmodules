@@ -4,3 +4,6 @@
 [submodule "src/libraries/robot_manager"]
 	path = src/libraries/robot_manager
 	url = https://github.com/SeonilChoi/ROBOT-MANAGER.git
+[submodule "src/ros2/gate_manager"]
+	path = src/ros2/gate_manager
+	url = https://github.com/SeonilChoi/GATE-MANAGER.git
