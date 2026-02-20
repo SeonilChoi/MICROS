@@ -26,19 +26,22 @@ struct motor_state_t {
 struct motor_state_gate_t {
     std::atomic<uint64_t> count{0};
     motor_state_t data[MAX_CONTROLLER_SIZE]{};
+    uint8_t data_size{0};
 
     void write(const motor_state_t* state, uint8_t size) {
         for (uint8_t i = 0; i < size; ++i) data[i] = state[i];
         for (uint8_t i = size; i < MAX_CONTROLLER_SIZE; ++i) data[i] = motor_state_t{};
+        data_size = size;
         count.fetch_add(1, std::memory_order_release);
     }
 
-    bool read(motor_state_t* state, uint8_t size, uint64_t & last_count) {
+    bool read(motor_state_t* state, uint8_t& size, uint64_t & last_count) {
         const uint64_t current_count = count.load(std::memory_order_acquire);
         if (current_count == last_count) return false;
 
         for (uint8_t i = 0; i < size; ++i) state[i] = data[i];
         last_count = current_count;
+        size = data_size;
         return true;
     }
 };
@@ -62,9 +65,9 @@ inline void convert_to_ros_message(const motor_state_t* data, uint8_t size, T& m
 }
 
 template <typename T>
-inline void convert_from_ros_message(const T& msg, motor_state_t* data)
+inline void convert_from_ros_message(const T& msg, uint8_t size, motor_state_t* data)
 {
-    for (uint8_t i = 0; i < msg.data.size(); ++i) {
+    for (uint8_t i = 0; i < size; ++i) {
         const auto& tid = msg.data[i].target_id;
         for (size_t j = 0; j < tid.size(); ++j) data[i].target_id[j] = tid[j];
         data[i].number_of_targets = msg.data[i].number_of_targets;
